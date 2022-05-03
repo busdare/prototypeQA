@@ -1,0 +1,20 @@
+{
+  "name": "prototypeqa",
+  "version": "1.0.0",
+  "description": "Software Test Automation Enginer Simulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testProj": "testcafe chrome ./tests/account-Create.spec.js",
+    "testProj2": "testcafe chrome ./tests --reporter allure"
+  },
+  "author": "Oludare Busari",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.17.2",
+    "testcafe": "^1.18.3"
+  },
+  "dependencies": {
+    "testcafe-reporter-allure": "^1.0.5"
+  }
+}
